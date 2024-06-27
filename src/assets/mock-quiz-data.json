@@ -1,0 +1,45 @@
+{
+    "id": 1,
+    "title": "Dynamic Quiz",
+    "description": "Test your knowledge with this dynamic quiz!",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the capital of France?",
+        "options": [
+          { "id": 1, "text": "London" },
+          { "id": 2, "text": "Paris" },
+          { "id": 3, "text": "Berlin" }
+        ],
+        "correctAnswer": [2],
+        "type": "radio",
+        "timeLimit": 120
+      },
+      {
+        "id": 2,
+        "text": "Select all programming languages:",
+        "options": [
+          { "id": 1, "text": "HTML" },
+          { "id": 2, "text": "CSS" },
+          { "id": 3, "text": "JavaScript" }
+        ],
+        "correctAnswer": [1, 2],
+        "type": "checkbox",
+        "timeLimit": 10
+      },
+      {
+        "id": 3,
+        "text": "What is your favourite color?",
+        "options": [
+          { "id": 0, "text": "Please select a value" },
+          { "id": 1, "text": "Blue" },
+          { "id": 2, "text": "Yello" },
+          { "id": 3, "text": "Red" }
+        ],
+        "correctAnswer": [1],
+        "type": "dropdown",
+        "timeLimit": 10
+      }
+    ]
+  }
+  

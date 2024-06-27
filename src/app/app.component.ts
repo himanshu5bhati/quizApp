@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'QuizApp';
+  goToQuiz:boolean = false;
+
+  startQuiz() {
+    this.goToQuiz = true;
+  }
 }
